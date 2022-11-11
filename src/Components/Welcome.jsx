@@ -6,7 +6,7 @@ const Welcome = () => {
     <div className='Welcome'>
       <div className="WelcomeSection">
         <h1>Tony Kang</h1>
-        <p>Fullstack Engineer/Frontend Developer</p>
+        <p>Fullstack Developer/Software Engineer</p>
       </div>
       <img src={tklogo} alt="logo animation"></img>
     </div>

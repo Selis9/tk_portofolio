@@ -4,6 +4,7 @@ import Welcome from './Welcome';
 import Navigation from './NavigationBar';
 import Projects from './Projects';
 import Technologies from './Technologies';
+import Footer from './Footer';
 
 const MainPage = () => {
   return (
@@ -27,6 +28,9 @@ const MainPage = () => {
       </div>
       <div id="technologies">
         <Technologies />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

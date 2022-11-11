@@ -138,12 +138,13 @@ p {
 
 .Sections {
   height: 700px;
-  margin-bottom: 200px;
+  margin-bottom: 500px;
 }
 
 .SectionHeader {
   font-size: 50px;
   color:rgb(72, 73, 74);
+  margin-bottom: 20px;
 }
 
 .WelcomeSection .SectionHeader {
@@ -175,4 +176,13 @@ p {
 .AboutMeSection {
   display: flex;
   flex-direction: row;
+}
+
+#landscapePhoto {
+  box-shadow: 10px 10px #3e3e3e;
+  margin-bottom: 20px;
+}
+
+.TechHeader {
+  font-size: 36px;
 }
