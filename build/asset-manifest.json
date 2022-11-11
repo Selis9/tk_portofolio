@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c29492ff.css",
+    "main.js": "/static/js/main.6b74bf99.js",
+    "static/js/787.5c879e2e.chunk.js": "/static/js/787.5c879e2e.chunk.js",
+    "static/media/tklogo.gif": "/static/media/tklogo.bf7fb78f47c81f8ca42e.gif",
+    "static/media/tonykang.gif": "/static/media/tonykang.701afd2d097d3891f55e.gif",
+    "index.html": "/index.html",
+    "main.c29492ff.css.map": "/static/css/main.c29492ff.css.map",
+    "main.6b74bf99.js.map": "/static/js/main.6b74bf99.js.map",
+    "787.5c879e2e.chunk.js.map": "/static/js/787.5c879e2e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c29492ff.css",
+    "static/js/main.6b74bf99.js"
+  ]
+}
