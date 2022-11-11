@@ -36,11 +36,11 @@ p {
   right: 25px;
 }
 
-.socialIcon {
+.SocialIcon {
   color: burlywood;
 }
 
-.socialIcon:hover {
+.SocialIcon:hover {
   color: white;
 }
 
@@ -50,7 +50,7 @@ p {
   background-color: burlywood;
 }
 
-.logo {
+.Logo {
   position: absolute;
   top: 25px;
   left: 10px;
@@ -88,7 +88,7 @@ p {
   color: #deb887;
 }
 
-.main {
+.Main {
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -112,7 +112,7 @@ p {
   color: white;
 }
 
-.navigation {
+.Navigation {
   display: flex;
   flex-direction: row;
   margin-left: 50%;
@@ -121,26 +121,58 @@ p {
   padding: 40px;
 }
 
-.navigation a, .navigation p {
+.Navigation a, .Navigation p {
   text-decoration: none;
   color: white;
 }
 
-.navigation a:hover, .navigation p:hover {
+.Navigation a:hover, .Navigation p:hover {
   text-decoration: none;
   color: burlywood;
 }
 
-.navline {
+.NavLine {
   height: 50px;
   border: 1px solid burlywood;
 }
 
-.AboutMe {
+.Sections {
   height: 700px;
+  margin-bottom: 200px;
 }
 
-#canvas-container {
-  width: 500px;
-  height: 500px;
+.SectionHeader {
+  font-size: 50px;
+  color:rgb(72, 73, 74);
+}
+
+.WelcomeSection .SectionHeader {
+  font-size: 50px;
+}
+
+.AboutMe {
+  text-align: left;
+}
+
+.AboutMe p {
+  color: white;
+  font-size: 24px;
+}
+
+.AboutMe p strong {
+  color: burlywood;
+}
+
+.AboutMe p a {
+  color: burlywood;
+  text-decoration: none;
+}
+
+.AboutMe p a:visited {
+  color: burlywood;
+}
+
+.AboutMeSection {
+  display: flex;
+  flex-direction: row;
 }

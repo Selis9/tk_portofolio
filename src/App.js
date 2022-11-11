@@ -8,7 +8,6 @@ import './App.css';
 
 const App = () => {
   const [landing, setLanding] = useState(true);
-  const [top, setTop] = useState(window.scrollY)
 
   useEffect(() => {
     setTimeout(() => {setLanding(false)}, 2650)
@@ -19,10 +18,10 @@ const App = () => {
 
       { landing ? <LandingPage /> :
         <div>
-          <motion.div animate={{y:top}} initial={{y:-100}} transition={{default: {ease: "linear"}}}>
+          <motion.div animate={{y:window.scrollY}} initial={{y:-100}} transition={{default: {ease: "linear"}}}>
             <Email />
           </motion.div>
-          <motion.div animate={{y:top}} initial={{y:-100}} transition={{default: {ease: "linear"}}}>
+          <motion.div animate={{y:window.scrollY}} initial={{y:-100}} transition={{default: {ease: "linear"}}}>
             <SocialMedia />
           </motion.div>
           <motion.div>

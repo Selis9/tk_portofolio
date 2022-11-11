@@ -3,12 +3,12 @@ import AboutMe from './AboutMe';
 import Welcome from './Welcome';
 import Navigation from './NavigationBar';
 import Projects from './Projects';
-import WorkHistory from './WorkHistory';
+import Technologies from './Technologies';
 
 const MainPage = () => {
   return (
-    <div className="main">
-      <div className="logo">
+    <div className="Main">
+      <div className="Logo">
         <a href="http://www.tonykang.dev">
           <img src={logo} alt="logo" width={150}/>
         </a>
@@ -25,8 +25,8 @@ const MainPage = () => {
       <div id="projects">
         <Projects />
       </div>
-      <div id="workhistory">
-        <WorkHistory />
+      <div id="technologies">
+        <Technologies />
       </div>
     </div>
   );

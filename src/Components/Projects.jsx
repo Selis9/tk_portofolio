@@ -2,10 +2,8 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div className='AboutMe'>
-      <div className="Name">
-        <h1>Projects</h1>
-      </div>
+    <div className='Sections'>
+      <h6 className="SectionHeader">Projects.</h6>
     </div>
   );
 }

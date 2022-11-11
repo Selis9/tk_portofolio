@@ -4,17 +4,17 @@ import AnchorLink from 'react-anchor-link-smooth-scroll-v2'
 
 const Navigation = () => {
   return (
-    <div className='navigation'>
+    <div className='Navigation'>
       <AnchorLink href="#about">
         <p>About</p>
       </AnchorLink>
-      <div className="navline"></div>
+      <div className="NavLine"></div>
       <AnchorLink href="#projects">
         <p>Projects</p>
       </AnchorLink>
-      <div className="navline"></div>
-      <AnchorLink href="#workhistory">
-        <p>Work History</p>
+      <div className="NavLine"></div>
+      <AnchorLink href="#technologies">
+        <p>Technologies</p>
       </AnchorLink>
     </div>
   );
