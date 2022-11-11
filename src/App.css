@@ -1,0 +1,146 @@
+body {
+  text-align: center;
+  color: burlywood;
+  background-color: #181818;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+}
+
+p {
+  color: burlywood;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #181818;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Socials {
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  right: 25px;
+}
+
+.socialIcon {
+  color: burlywood;
+}
+
+.socialIcon:hover {
+  color: white;
+}
+
+.SocialLine {
+  height: 300px;
+  width: 1px;
+  background-color: burlywood;
+}
+
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 10px;
+}
+
+.Email {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  left: 10px;
+  top: 0px;
+  height: 52vw;
+  width: 25px;
+  padding-left: 10px;
+}
+
+.EmailText {
+  padding-left: 380px;
+  color: burlywood;
+  text-decoration: none;
+  transform: rotate(-90deg)
+}
+
+.EmailText p {
+  font-size: 18px;
+}
+
+.EmailText:hover, .EmailText:hover p {
+  color: white;
+}
+
+.EmailText:visited {
+  color: #deb887;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 2100px;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.Welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  height: 500px;
+  padding: 200px 0 400px 0;
+  width: 1000px;
+}
+
+.Welcome p, .Welcome h3 {
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50%;
+  width: 800px;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.navigation a, .navigation p {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation a:hover, .navigation p:hover {
+  text-decoration: none;
+  color: burlywood;
+}
+
+.navline {
+  height: 50px;
+  border: 1px solid burlywood;
+}
+
+.AboutMe {
+  height: 700px;
+}
+
+#canvas-container {
+  width: 500px;
+  height: 500px;
+}
