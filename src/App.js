@@ -15,7 +15,6 @@ const App = () => {
 
   return (
     <div className="App">
-
       { landing ? <LandingPage /> :
         <div>
           <motion.div animate={{y:window.scrollY}} initial={{y:-100}} transition={{default: {ease: "linear"}}}>
@@ -24,8 +23,8 @@ const App = () => {
           <motion.div animate={{y:window.scrollY}} initial={{y:-100}} transition={{default: {ease: "linear"}}}>
             <SocialMedia />
           </motion.div>
-          <motion.div>
-            <MainPage animate={{y: 0}} initial={{y:-100}} transition={{default: {ease: "linear"}}}/>
+          <motion.div animate={{y: 0}} initial={{y:-100}} transition={{default: {ease: "linear"}}}>
+            <MainPage />
           </motion.div>
         </div> }
     </div>

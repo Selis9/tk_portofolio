@@ -1,6 +1,5 @@
 import landinglogo from '../tonykang.gif';
 
-
 const LandingPage = () => {
   return (
     <div className="App">

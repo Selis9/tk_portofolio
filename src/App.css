@@ -94,7 +94,7 @@ p {
   flex-direction: column;
   height: 2100px;
   justify-content: space-between;
-  width: 1000px;
+  width: 1100px;
 }
 
 .Welcome {
@@ -121,9 +121,18 @@ p {
   padding: 40px;
 }
 
+.WelcomeSection h1 {
+  font-size: 40px;
+}
+
+.WelcomeSection p {
+  font-size: 20px;
+}
+
 .Navigation a, .Navigation p {
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 
 .Navigation a:hover, .Navigation p:hover {
@@ -185,4 +194,25 @@ p {
 
 .TechHeader {
   font-size: 36px;
+}
+
+.Tabs {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Github {
+  font-size: 50px;
+  color: burlywood;
+}
+
+.Github:hover {
+  color: white;
+}
+
+.ProjectDesc {
+  font-size: 24px;
+  color: white
 }

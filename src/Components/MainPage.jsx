@@ -7,6 +7,13 @@ import Technologies from './Technologies';
 import Footer from './Footer';
 
 const MainPage = () => {
+
+  console.log(
+    `     ╦ ╦╦╦═╗╔═╗  ╔╦╗╔═╗  ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗
+     ╠═╣║╠╦╝║╣   ║║║║╣   ╠═╝║  ║╣ ╠═╣╚═╗║╣
+     ╩ ╩╩╩╚═╚═╝  ╩ ╩╚═╝  ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝`
+  )
+
   return (
     <div className="Main">
       <div className="Logo">

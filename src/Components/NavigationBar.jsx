@@ -1,7 +1,6 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll-v2'
 
-
 const Navigation = () => {
   return (
     <div className='Navigation'>
