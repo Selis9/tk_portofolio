@@ -132,7 +132,7 @@ p {
 .Navigation a, .Navigation p {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .Navigation a:hover, .Navigation p:hover {
@@ -147,7 +147,7 @@ p {
 
 .Sections {
   height: 700px;
-  margin-bottom: 500px;
+  margin-bottom: 600px;
 }
 
 .SectionHeader {
@@ -166,7 +166,7 @@ p {
 
 .AboutMe p {
   color: white;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .AboutMe p strong {
@@ -193,18 +193,18 @@ p {
 }
 
 .TechHeader {
-  font-size: 36px;
+  font-size: 24px;
 }
 
 .Tabs {
-  font-size: 30px;
+  font-size: 24px;
   color: white;
   display: flex;
   justify-content: space-around;
 }
 
 .Github {
-  font-size: 50px;
+  font-size: 40px;
   color: burlywood;
 }
 
@@ -213,6 +213,6 @@ p {
 }
 
 .ProjectDesc {
-  font-size: 24px;
+  font-size: 20px;
   color: white
 }

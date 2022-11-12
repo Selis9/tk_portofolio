@@ -57,10 +57,10 @@ const Technologies = () => {
         fill={(d,i) => colors[Math.floor(Math.random() * 10)]}
         font="Montserrat"
         fontWeight="bold"
-        fontSize={(word) => Math.log2(word.value) * 4}
+        fontSize={(word) => Math.log2(word.value) * 3}
         spiral="rectangular"
         rotate={(word) => word.value % 5}
-        padding={5}
+        padding={7}
         random={Math.random}
       />
       <p className="TechHeader">Currently Learning:</p>
