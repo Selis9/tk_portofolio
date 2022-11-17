@@ -74,7 +74,7 @@ const Technologies = () => {
         fontSize={(word) => Math.log2(word.value) * 4}
         spiral="rectangular"
         rotate={(word) => word.value % 5}
-        padding={7}
+        padding={15}
         random={Math.random}
       />
     </div>

@@ -4,6 +4,7 @@ body {
   background-color: #181818;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
+  min-width: 300px
 }
 
 p {
@@ -29,7 +30,8 @@ p {
 .Socials {
   display: flex;
   flex-direction: column;
-  height: 550px;
+  min-height: 50vh;
+  height: 50vh;
   justify-content: space-between;
   align-items: center;
   position: fixed;
@@ -64,13 +66,14 @@ p {
   position: fixed;
   left: 10px;
   top: 0px;
-  height: 52vw;
+  height: 100vh;
+  min-height: 20vh;
   width: 25px;
   padding-left: 10px;
 }
 
 .EmailText {
-  padding-left: 380px;
+  padding-left: 35vh;
   color: burlywood;
   text-decoration: none;
   transform: rotate(-90deg)
@@ -94,18 +97,20 @@ p {
   flex-direction: column;
   height: 2100px;
   justify-content: space-between;
-  width: 1100px;
+  width: 60vw;
 }
 
 .Welcome {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   text-align: left;
   align-items: center;
   height: 500px;
   padding: 200px 0 400px 0;
-  width: 1000px;
+  width: 50vw;
+  min-width: 300px;
 }
 
 .Welcome p, .Welcome h3 {
@@ -115,8 +120,8 @@ p {
 .Navigation {
   display: flex;
   flex-direction: row;
-  margin-left: 50%;
-  width: 800px;
+  margin-left: 45%;
+  width: 40vw;
   justify-content: space-around;
   padding: 40px;
 }
@@ -127,6 +132,10 @@ p {
 
 .WelcomeSection p {
   font-size: 20px;
+}
+
+.Welcome img {
+  width: 25vw;
 }
 
 .Navigation a, .Navigation p {
@@ -189,6 +198,7 @@ p {
 
 #landscapePhoto {
   box-shadow: 10px 10px #3e3e3e;
+  width: 55vw;
   margin-bottom: 20px;
 }
 
@@ -201,6 +211,7 @@ p {
   color: white;
   display: flex;
   justify-content: space-around;
+  width: 50vw;
 }
 
 .Github {
@@ -214,5 +225,6 @@ p {
 
 .ProjectDesc {
   font-size: 20px;
+  text-align: justify ;
   color: white
 }
