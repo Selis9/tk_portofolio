@@ -228,3 +228,243 @@ p {
   text-align: justify ;
   color: white
 }
+
+@media only screen and (min-width: 300px)
+and (max-width: 600px) {
+  html, body {
+    text-align: center;
+    color: burlywood;
+    background-color: #181818;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    width: 100vw;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  p {
+    color: burlywood;
+  }
+
+  .App-logo {
+    pointer-events: none;
+  }
+
+  .App-header {
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .Socials {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    height: 53vh;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 25px;
+  }
+
+  .SocialIcon {
+    color: burlywood;
+  }
+
+  .SocialIcon:hover {
+    color: white;
+  }
+
+  .SocialLine {
+    height: 300px;
+    width: 1px;
+    background-color: burlywood;
+  }
+
+  .Logo {
+    display: none;
+  }
+
+  .Email {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    left: 10px;
+    top: 0px;
+    height: 100vh;
+    min-height: 20vh;
+    width: 25px;
+    padding-left: 10px;
+  }
+
+  .EmailText {
+    padding-left: 35vh;
+    color: burlywood;
+    text-decoration: none;
+    transform: rotate(-90deg)
+  }
+
+  .EmailText p {
+    font-size: 18px;
+  }
+
+  .EmailText:hover, .EmailText:hover p {
+    color: white;
+  }
+
+  .EmailText:visited {
+    color: #deb887;
+  }
+
+  .Main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 4000px;
+    justify-content: space-between;
+  }
+
+  .Welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: center;
+    height: 500px;
+    padding: 200px 0 400px 0;
+    width: 50vw;
+    min-width: 300px;
+  }
+
+  .Welcome p, .Welcome h3 {
+    color: white;
+  }
+
+  .Navigation {
+    margin-right: 50px;
+    display: flex;
+    position: absolute;
+    left: -100px;
+  }
+
+  .WelcomeSection h1 {
+    font-size: 40px;
+  }
+
+  .WelcomeSection p {
+    font-size: 20px;
+  }
+
+  .Welcome img {
+    width: 200px;
+    margin-left: -50px;
+    margin-top: 50px;
+  }
+
+  .Navigation a, .Navigation p {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .Navigation a:hover, .Navigation p:hover {
+    text-decoration: none;
+    color: burlywood;
+  }
+
+  .NavLine {
+    height: 50px;
+    border: 1px solid burlywood;
+  }
+
+  .Sections {
+    height: 700px;
+    margin-bottom: 600px;
+  }
+
+  .SectionHeader {
+    font-size: 50px;
+    color:rgb(72, 73, 74);
+    margin-bottom: 20px;
+  }
+
+  .WelcomeSection .SectionHeader {
+    font-size: 50px;
+  }
+
+  .AboutMe {
+    text-align: left;
+  }
+
+  .AboutMe p {
+    color: white;
+    font-size: 18px;
+  }
+
+  .AboutMe p strong {
+    color: burlywood;
+  }
+
+  .AboutMe p a {
+    color: burlywood;
+    text-decoration: none;
+  }
+
+  .AboutMe p a:visited {
+    color: burlywood;
+  }
+
+  .AboutMeSection {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #landscapePhoto {
+    box-shadow: 10px 10px #3e3e3e;
+    width: 55vw;
+    margin-bottom: 20px;
+  }
+
+  .TechHeader {
+    font-size: 24px;
+  }
+
+  .Tabs {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: -20px;
+  }
+
+  .Github {
+    font-size: 30px;
+    color: burlywood;
+  }
+
+  .Github:hover {
+    color: white;
+  }
+
+  .ProjectDesc {
+    font-size: 18px;
+    text-align: justify ;
+    color: white
+  }
+
+  .ProjectImg {
+    width: 100%;
+   }
+}

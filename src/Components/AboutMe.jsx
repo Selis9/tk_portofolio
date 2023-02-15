@@ -4,7 +4,7 @@ import Photo from '../tonykanglandscape.jpg'
 const AboutMe = () => {
   return (
     <div className='Sections'>
-      <h6 className="SectionHeader">About Me.</h6>
+      <h6 className="SectionHeader" id="about">About Me.</h6>
           <img id="landscapePhoto" src={Photo} alt="landscape" width={720}/>
       <div className="AboutMeSection">
         <div className="AboutMe">

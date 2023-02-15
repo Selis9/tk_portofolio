@@ -39,7 +39,7 @@ const projectsList = [
 const Projects = () => {
   return (
     <div className='Sections'>
-      <h6 className="SectionHeader">Projects.</h6>
+      <h6 className="SectionHeader" id="projects">Projects.</h6>
       <Tabs>
         <TabList className="Tabs">
           {projectsList.map(project => (
@@ -50,7 +50,7 @@ const Projects = () => {
             <TabPanel key={project.title + project.url}>
               <a className="Github" href={project.url}><FiGithub /></a>
               <p className="ProjectDesc">{project.description}</p>
-              <img src={project.img} alt="screenshot" width={project.width}/>
+              <img src={project.img} alt="screenshot" width={project.width} className="ProjectImg"/>
             </TabPanel>
           ))}
       </Tabs>

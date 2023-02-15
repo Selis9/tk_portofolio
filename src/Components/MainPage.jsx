@@ -4,7 +4,6 @@ import Welcome from './Welcome';
 import Navigation from './NavigationBar';
 import Projects from './Projects';
 import Technologies from './Technologies';
-import Footer from './Footer';
 
 const MainPage = () => {
 
@@ -21,24 +20,11 @@ const MainPage = () => {
           <img src={logo} alt="logo" width={150}/>
         </a>
       </div>
-      <div>
         <Navigation />
-      </div>
-      <div>
         <Welcome />
-      </div>
-      <div id="about">
         <AboutMe />
-      </div>
-      <div id="projects">
         <Projects />
-      </div>
-      <div id="technologies">
         <Technologies />
-      </div>
-      <div>
-        <Footer />
-      </div>
     </div>
   );
 }

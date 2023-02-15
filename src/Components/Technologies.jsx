@@ -2,17 +2,17 @@ import React from 'react';
 import WordCloud from 'react-d3-cloud';
 
 const known = [
-  { text: 'React', value: 1000 },
-  { text: 'HTML', value: 200 },
-  { text: 'CSS', value: 600 },
-  { text: 'Javascript', value: 500 },
+  { text: 'React', value: 500 },
+  { text: 'HTML', value: 100 },
+  { text: 'CSS', value: 100 },
+  { text: 'Javascript', value: 100 },
   { text: 'ES5', value: 100 },
   { text: 'ES6', value: 150 },
   { text: 'NodeJS', value: 250 },
   { text: 'mySQL', value: 100 },
-  { text: 'MongoDB', value: 500 },
+  { text: 'MongoDB', value: 100 },
   { text: 'PostgreSQL', value: 500 },
-  { text: 'AWS', value: 500 },
+  { text: 'AWS', value: 300 },
   { text: 'Google Cloud', value: 100 },
   { text: 'React Native', value: 100 },
   { text: 'Styled-Components', value: 100 },
@@ -28,8 +28,8 @@ const known = [
 
 const learning = [
   { text: 'Typescript', value: 200 },
-  { text: 'Docker', value: 500 },
-  { text: '.Net', value: 400},
+  { text: 'Docker', value: 300 },
+  { text: '.Net', value: 250},
   { text: 'C#', value: 300},
 ];
 
@@ -50,15 +50,15 @@ const Technologies = () => {
   return (
     <div className='Sections'>
       <h6 className="SectionHeader">Technologies.</h6>
-      <p className="TechHeader">Current Technologies:</p>
+      <p className="TechHeader" id="technologies">Current Technologies:</p>
       <WordCloud
         data={known}
-        width={800}
-        height={300}
-        fill={(d,i) => colors[Math.floor(Math.random() * 10)]}
+        width={300}
+        height={200}
+        fill={(d,i) => colors[Math.floor(Math.random() * 5)]}
         font="Montserrat"
         fontWeight="bold"
-        fontSize={(word) => Math.log2(word.value) * 3}
+        fontSize={(word) => Math.log2(word.value) * 2}
         spiral="rectangular"
         rotate={(word) => word.value % 5}
         padding={7}
@@ -67,15 +67,15 @@ const Technologies = () => {
       <p className="TechHeader">Currently Learning:</p>
       <WordCloud
         data={learning}
-        width={800}
-        height={300}
-        fill={(d,i) => colors[Math.floor(Math.random() * 10)]}
+        width={300}
+        height={100}
+        fill={(d,i) => colors[Math.floor(Math.random() * 5)]}
         font="Montserrat"
         fontWeight="bold"
-        fontSize={(word) => Math.log2(word.value) * 4}
+        fontSize={(word) => Math.log2(word.value) * 2}
         spiral="rectangular"
         rotate={(word) => word.value % 5}
-        padding={15}
+        padding={10}
         random={Math.random}
       />
     </div>
