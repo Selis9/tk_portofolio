@@ -4,10 +4,16 @@ import GameStart from '../GameStart.gif';
 import Odin from '../Odin.png';
 import Moist from '../Moist.png';
 import Reviews from '../SDC_Reviews.png';
+import TellafriendWeb from '../tellafriendlanding.png';
 import { Tabs, TabList, TabPanel, Tab } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
 const projectsList = [
+  {title: "tellafriend.io",
+  description: "Website/landing page built with React for early non-profit startup while mobile app is being developed - tellafriend.io",
+  url:"https://github.com/tell-a-friend-app/tell-a-friend-web",
+  img:TellafriendWeb,
+  width: '100%'},
   {title: "GameStart",
   description: "Project consisting of 6 team members to build a fullstack game trading app built with React Native, Express, Node, and PostgreSQL. The app allows users to post/send trades with other users, has a built in messaging feature, and includes a map feature to show nearby traders (similar to rideshare services). Connected to gaming API for full details and photos.",
   url:"https://github.com/Selis9/GameStart",

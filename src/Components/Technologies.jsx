@@ -23,13 +23,14 @@ const known = [
   { text: 'Parcel', value: 100 },
   { text: 'NPM', value: 200 },
   { text: 'Mongoose', value: 200 },
+  { text: 'Figma', value: 200 },
 ];
 
 const learning = [
-  { text: 'NextJS', value: 1000 },
   { text: 'Typescript', value: 200 },
-  { text: 'TailwindCSS', value: 600 },
   { text: 'Docker', value: 500 },
+  { text: '.Net', value: 400},
+  { text: 'C#', value: 300},
 ];
 
 const colors = [
